@@ -1,0 +1,20 @@
+.AllPaymentList{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.AllPaymentList .label label{
+    font-size: 20px;
+    margin-top: 3px;
+}
+.AllPaymentList input{
+    text-align: center;
+    border: 2px solid #192a56;
+    color: #192a56;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

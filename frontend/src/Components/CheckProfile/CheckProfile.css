@@ -1,0 +1,37 @@
+.CheckProfileDiv{
+    border-radius: 6px;
+    padding:10px;
+    margin-top: 10px;
+    color: white;
+}
+.CheckProfileDiv h5{
+    text-align: left;
+}
+.CheckProfileDiv:first-child{
+    background-color: rgba(46, 74, 117, 0.568);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.CheckProfileDiv:first-child input{
+    text-align: center;
+}
+.CheckProfileDiv .mainProfileDiv .section-4 .ant-picker{
+    background: #f5f5f5;
+    border-color: #d9d9d9;
+    cursor: not-allowed;
+    height: 40px;
+    width: 100%;
+}
+.CheckProfileDiv>div .updateButton{
+    height: 40px;
+    width: 120px;
+    background-color: #071b50;
+    color: white;
+    border: 2px solid transparent;
+}
+.CheckProfileDiv>div .updateButton:hover{
+    background-color: white;
+    color: #071b50;
+    border: 2px solid #071b50;
+}

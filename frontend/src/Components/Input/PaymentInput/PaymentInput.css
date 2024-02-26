@@ -1,0 +1,28 @@
+.paymentCreationInput{
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px;
+    transition: all 1s;
+}
+.paymentCreationInput .label{
+    margin: 0px !important;
+    height: auto !important;
+}
+.paymentCreationInput .label label{
+    font-size: 17px;
+    position: relative;
+    padding-left: 10px;
+    margin: 0 !important;
+}
+.paymentCreationInput input{
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    margin: 0px !important;
+    font-size: 14px !important;
+}
+.paymentCreationInput input:focus{
+    outline: none;
+    border: 1px solid #7b7d7e;
+}

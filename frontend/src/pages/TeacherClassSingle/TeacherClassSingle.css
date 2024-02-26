@@ -1,0 +1,13 @@
+.mainTableRow{
+    background-color: rgba(231, 230, 230, 0.705);
+}
+.subTableRow{
+    background-color: rgb(207, 201, 201);
+}
+.ant-modal-close-x:focus{
+    outline: none;
+}
+.statisticsTeacher{
+    width: 100%;
+    overflow-x: auto;
+}

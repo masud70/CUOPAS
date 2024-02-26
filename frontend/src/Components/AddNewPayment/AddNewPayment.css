@@ -1,0 +1,125 @@
+.tinyBottomBorder{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.74) !important;
+}
+.ant-picker-input{
+    padding: 2px !important;
+}
+.ant-picker-input input{
+    margin: 0px !important;
+    padding: 1px !important;
+}
+.AddNewPaymentDiv{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgba(226, 231, 231, 0.808);
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(196,196,196,0.84); 
+    box-shadow: 0px 0px 5px 1px rgba(196,196,196,0.84);
+    transition: all .5s;
+}
+.AddNewPaymentDiv label{
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    font-size: 13px;
+}
+.AddNewPaymentDiv .label{
+    padding: 0px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    display: inline-block;
+    
+}
+.bg-right{
+    background-color: #e5eef362;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: -2px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.AddNewPaymentDiv input{
+    color: #071946;
+    border: 2px solid rgb(220,220,220);
+    padding: 3px 7px;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin: 15px;
+}
+.accordionStyle{
+    width: 100% !important;
+    display: block !important;
+}
+.AddNewPaymentDiv #idList{
+    overflow-y: auto;
+    max-height: 100vh;
+    background-color: #e1e5e783;
+    border-radius: 5px;
+}
+.AddNewPaymentDiv .accordion-item{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #bdc3c7;
+    height: 45px;
+    padding: 0px 0px;
+    margin-bottom: 5px;
+    margin: 5px -15px;
+}
+.RemoveIcon{
+    color: #2c3e50;
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+.RemoveIcon:focus{
+    border-color: transparent;
+}
+.AddNewPaymentDiv .paymentCreationButton{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: white;
+    color: #071946;
+    border: 3px solid #071946;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+.AddNewPaymentDiv .paymentCreationButton:hover{
+    background-color: #071946;
+    color: white;
+    border: 3px solid transparent;
+}
+
+/* Accordion */
+.accordion {
+    border-bottom: 1px solid #999;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+  
+  /* Header */
+.accordion > div > div:first-of-type {
+    border: 1px solid #999;
+    border-bottom: 0;
+    padding: 0.3rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+}
+  /* Content */
+  .accordion > div > div:last-of-type {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+.accordionImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

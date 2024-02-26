@@ -1,0 +1,40 @@
+.anAdminOption{
+    background-color: white;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    color: #192a56;
+    width: 250px;
+    height: auto;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(196,196,196,0.84); 
+    box-shadow: 0px 0px 5px 1px rgba(196,196,196,0.84);
+    transition: all .5s;
+}
+.anAdminOption a{
+    color: #192a56;
+}
+.anAdminOption:hover{
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(194,194,194,0); 
+    box-shadow: 0px 0px 5px 1px rgba(194,194,194,0);
+}
+.anAdminOption i{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+.anAdminOption .addButton{
+    width: 85%;
+    padding: 5px;
+    border: 2px solid #192a56;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: all .5s;
+}
+.anAdminOption .addButton:hover{
+    background-color: #192a56;
+    color: white;
+    border: 2px solid transparent;
+}

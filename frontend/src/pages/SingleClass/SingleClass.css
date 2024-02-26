@@ -1,0 +1,13 @@
+.site-page-header-ghost-wrapper {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  .singleClassMain .pageHeader{
+      background-color: rgba(196, 193, 193, 0.514);
+  }
+
+  .statistics{
+      width: 100%;
+      overflow-x: auto;
+  }

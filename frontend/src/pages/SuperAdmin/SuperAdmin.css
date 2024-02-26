@@ -1,0 +1,23 @@
+.dbaMain{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+.dept_head{
+    height: 120px;
+    background-image: url('https://thumbs.dreamstime.com/b/dbms-businessman-hologram-concept-futuristic-dbms-businessman-hologram-concept-176710182.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+.deptName{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding-bottom: 0px;
+}

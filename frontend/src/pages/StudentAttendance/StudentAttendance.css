@@ -1,0 +1,37 @@
+.AttendanceMainDiv{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-direction: column;
+    width: 100%;
+}
+.AttendanceMainDiv .AttendanceHeading{
+    width: 100%;
+    height: auto;
+    background-color: rgb(212, 211, 212);
+    border-radius: 3px;
+    text-align: center;
+}
+.AttendanceMainDiv .classes{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    overflow-x: auto;
+    background-color: rgba(211, 204, 211, 0.281);
+}
+.AttendanceMainDiv .ongoingClasses{
+    width: 100%;
+    margin-top: 2px;
+    border-radius:5px !important;
+    overflow: hidden;
+}
+.AttendanceMainDiv .ongoingClasses .classRow{
+    background-color: #1A374D;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px !important;
+    color: white;
+    width: 100%;
+    margin: 0 !important;
+}

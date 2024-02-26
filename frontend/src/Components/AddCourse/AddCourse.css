@@ -1,0 +1,23 @@
+.addCourseDiv{
+    background-color: rgba(45, 52, 73, 0.493);
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    color: white;
+}
+.addCourseDiv input{
+    color: rgb(7, 23, 73);
+}
+.addCourseDiv .addCourseButton{
+    width: 110px;
+    height: 40px;
+    border: 2px solid transparent;
+    background-color: #0c2568;
+    color: white;
+    transition: 0.5s;
+}
+.addCourseDiv .addCourseButton:hover{
+    border: 2px solid #3B3B98;
+    background-color: #fff;
+    color: #0c2568;
+}

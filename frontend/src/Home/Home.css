@@ -1,0 +1,76 @@
+.home{
+  padding: 0px 10px;
+  min-height: auto;
+  /* position: relative; */
+  /* margin-top: 70px; */
+}
+.home .SideBarShowButton{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  border: none;
+  z-index: 100;
+  background-color: transparent;
+}
+.home .SideBarShowButton i{
+  color: #192a56;
+  font-size: 30px;
+}
+.mt-70{
+  margin-bottom: 70px;
+}
+.rightSide{
+  min-height: 94vh;
+  overflow-y: auto;
+}
+.home .mt-70{
+  margin-bottom: 70px;
+}
+.home .rightSide{
+  min-height: 94vh;
+  overflow-y: auto;
+}
+.logoBar{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: #192a56;
+  font-size: 25px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(194,194,194,0.84); 
+  box-shadow: 0px 0px 8px 0px rgba(194,194,194,0.84);
+  z-index: 900; 
+}
+.creditFooter{
+  width: 100%;
+  padding: 5px;
+  color: red;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  font-weight: 600;
+  background-color: white ;
+}
+
+
+/* Media Query */
+@media only screen and (min-width: 601px){
+  .home .SideBarShowButton{
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home .SideBarShowButton{
+    display: block;
+  }
+  .home .mobile-version-sidebar{
+    background-color: white;
+    overflow-y: auto;
+    height: 110vh;
+    border-radius: 8px;
+    padding: 10px 10px 20px 10px;
+    position: absolute;
+    position: fixed;
+    display: block;
+    z-index: 1000;
+  }
+}

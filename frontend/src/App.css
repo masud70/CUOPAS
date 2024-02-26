@@ -1,0 +1,48 @@
+.App{
+  overflow-x: hidden;
+  background-color: #EDEFF2;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fontTahoma{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.fontLarge{
+  font-size: 30px;
+}
+
+* {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+.css-319lph-ValueContainer{
+  margin-top: -4px;
+}
+::-webkit-scrollbar {
+  display: none !important; /* for Chrome, Safari, and Opera */
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+	scrollbar-width: auto;
+	scrollbar-color: #b2dee1 #c7bdbd;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+	width: 4px;
+	border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+	background: #c7bdbd;
+  }
+
+  *::-webkit-scrollbar-thumb {
+	background-color: #b2dee1;
+	border-radius: 10px;
+	border: 0px solid #390909;
+  }

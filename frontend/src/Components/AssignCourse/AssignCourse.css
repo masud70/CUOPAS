@@ -1,0 +1,38 @@
+.assignCourseDiv{
+    background-color: rgba(45, 52, 73, 0.493);
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    color: white;
+}
+.assignCourseDiv .ant-collapse{
+    background-color: transparent;
+}
+.assignCourseDiv .ant-collapse-content{
+    background-color: rgba(170, 170, 170, 0.829);
+    color: white;
+}
+.assignCourseDiv .ant-collapse-content .fas{
+    color:#192a56;
+    margin-right: 7px;
+}
+.assignCourseDiv .ant-collapse-content small{
+    margin: 0px 0px;
+    display: block;
+    font-size: 13px;
+}
+.assignCourseDiv .ant-collapse-header{
+    background-color: rgba(220, 221, 225, 0.829);
+}
+.assignCourseDiv .ant-collapse-header-text{
+    color: #16254b;
+    font-weight: 600;
+}
+.assignCourseDiv .course-title{
+    color: #16254b;
+}
+.assignCourseDiv .assignTeacherCourse{
+    background-color: #192a56;
+    border-color: transparent;
+    color: white;
+}

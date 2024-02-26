@@ -1,0 +1,44 @@
+.mainDivActivity{
+    width: 25%;
+    height: 250px !important;
+    background-color: #dfcdb3;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+    transition: all 0.8s;
+    min-width: 300px;
+    margin-top: 10px;
+}
+.activityLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.activityLink:hover .activityIcon, .activityLink:hover, .activityLink:hover .activityTitle{
+    text-decoration: none;
+    color: rgb(70, 110, 134);
+}
+.mainDivActivity:hover{
+    transform: scale(1.08);
+}
+.activityLink:hover .activityIcon{
+    transform: scale(1.1);
+}
+.activityIcon{
+    font-size: 150px;
+    display: block;
+    color: #606060;
+    transition: all 0.8s;
+}
+.activityTitle{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #606060;
+    transition: all 0.8s;
+}

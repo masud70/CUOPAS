@@ -1,0 +1,29 @@
+.Menu-bar{
+    width: 100%;
+    min-height: 12vh;
+    padding: 10px 2px;
+    
+
+}
+.Menu-bar .logo{
+    height: 55px;
+}
+.Menu-bar .menu-v-middle{
+    height: 100%;
+    color: white;
+}
+.logInButton{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    padding: 5px 15px;
+}
+.logInButton:hover{
+    background-color: white;
+    color: black;
+}
+.menu-border-bottom{
+    width: 85%;
+    height: 1px;
+}

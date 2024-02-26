@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.NavbarMainDiv{
+    background-color: rgba(255, 255, 255, 0.281);
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding: 0 10px;
+    position: fixed;
+    z-index: 100;
+    transition: all .5s;
+}
+.NavbarMainDivOnScroll{
+    background-color: rgb(240, 240, 240);
+    transition: all .5s;
+}
+.NavbarMainDivOnScroll .section-left,.NavbarMainDivOnScroll .section-right .logOutBtn{
+    color: #091353;
+    transition: all .5s;
+}
+.NavbarMainDivOnScroll .section-left .NavBrand img{
+    filter: contrast(100) !important;
+}
+.NavbarMainDivOnScroll .section-middle .NavLink{
+    border-bottom: 3px solid #0a005e;
+}
+.NavbarMainDivOnScroll .section-middle .NavLink:hover{
+    border-bottom: none;
+}
+.NavbarMainDiv .NavContainer{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.NavbarMainDiv .NavContainer .section{
+    display: flex;
+    align-items: center;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.NavbarMainDiv .NavContainer .section-left{
+    width: 30%;
+    height: 100%;
+    margin: 0px !important;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.NavbarMainDiv .NavContainer .section-middle{
+    width: 55%;
+    height: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarMainDiv .NavContainer .section-right{
+    width: 15%;
+    height: 100%;
+    justify-content: end;
+}
+.NavbarMainDiv .NavContainer .section-left .NavBrand{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarMainDiv .NavContainer .section-left .NavBrand .NavBrandLogo{
+    max-height: 100%;
+    filter: brightness(100);
+}
+.NavbarMainDiv .NavContainer .section-left .NavText{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 0px !important;
+    font-family: 'Secular One', sans-serif;
+    /* display: none; */
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.NavLink{
+    color: #091353;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 50px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border-bottom: 3px solid #0a005e;
+    transition: all 0.5s;
+}
+.NavLink:hover{
+    text-decoration: none;
+    color: #D3E4CD;
+    background-color:#091353;
+    border-bottom: 3px solid white;
+}
+.current{
+    color: #D3E4CD;
+    background-color:#091353;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.userLogo{
+    height: 80%;
+    width: 58px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-right: 5px !important;
+}
+.logOutBtn{
+    font-size: 40px;
+    color: white;
+    transition: all ease 0.5s;
+    border-radius: 7px;
+    padding: 4px;
+}
+.logOutBtn:hover{
+    background-color: white;
+    color: #091353;
+}
+.MenuBarIcon{
+    font-size: 35px;
+    color: white;
+}
+
+
+.NavbarMainDiv .NavContainer .section-most-right{
+    display: none;
+}
+.NavbarMainDiv .mobileMenuContainer{
+    background-color: rgb(178, 200, 214);
+    height: 100vh;
+    z-index: 1000000000;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: none;
+    transition: all ease 1s;
+}
+.NavbarMainDiv .mobileMenuContainer .mobileLinkContainer{
+    list-style: none;
+    width: 100%;
+    background-color: rgba(95, 158, 160, 0.39);
+    margin-left: 0px;
+    transition: all ease 1s;
+}
+.NavbarMainDiv .mobileMenuContainer .mobileLinkContainer .mobileLinkItem{
+    width: 100%;
+    margin: 0px !important;
+}
+.mobileLinkContainer .mobileLinkItem .MobileNavLink{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Secular One', sans-serif;
+    color: #D3E4CD;
+    background-color:#091353;
+    transition: all 0.5s;
+}
+.mobileLinkContainer .mobileLinkItem .MobileNavLink:hover{
+    color: #091353;
+    background-color:#D3E4CD;
+}
+.mobileLinkContainer .mobileLinkItem .current{
+    color: #091353;
+    background-color:#D3E4CD;
+}
+
+@media only screen and (max-width: 800px){
+    .NavbarMainDiv .NavContainer .section-middle,.NavbarMainDiv .NavContainer .section-right{
+        display: none;
+    }
+    .NavbarMainDiv .NavContainer .section-left{
+        width: 80%;
+    }
+    .NavbarMainDiv .NavContainer .section-most-right{
+        display: flex;
+        width: 20%;
+        color: rgb(216, 216, 209);
+        justify-content: center;
+        height: 100%;
+    }
+    .NavbarMainDiv .mobileMenuContainer{
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px){
+    .NavbarMainDiv .NavContainer .section-left .NavText{
+        font-size: 20px;
+    }
+}

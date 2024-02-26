@@ -1,0 +1,80 @@
+.mainDiv{
+    min-height: 100vh;
+    transition: ease-in-out 2s;
+}
+.formBox{
+    padding: 70px 60px;
+    border: 5px solid rgb(200, 30, 30);
+    border-radius: 5px;
+    background: rgba(241, 107, 70,0.1);  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, rgba(#eea849,0.9), rgba(#f46b45,0.9));  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.formLogo{
+    height: 120px;
+    transform: translate(-0px, -40px);
+    font-size: 100px;
+}
+.inputField1, .inputField2{
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: hidden;
+}
+.inputField1:focus, .inputField2:focus{
+    outline: none;
+}
+.label{
+    background-color: transparent;
+    float: left !important;
+    transition: transform 1s;
+    transform: translate(-40px, -10px);
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.inputBox{
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 0px 30% 7px 50px;
+    /* width: 100%; */
+    border-radius: 5px;
+}
+.formText{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(8, 44, 68);
+    font-weight: 600;
+}
+.formText:hover{
+    text-decoration: none;
+    color: rgb(60, 88, 107);
+}
+.loginBtn{
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btnText{
+    font-size: 20px;
+    font-weight: bold;
+}
+.loginBtn:hover{
+    cursor: pointer;
+}
+.loginBtn:hover .fas{
+    transition: transform 1s;
+    transition: ease-in-out 1s;
+    transform: translate(60px, 0px);
+}

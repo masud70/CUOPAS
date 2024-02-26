@@ -1,0 +1,22 @@
+.teacherClassMain{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-direction: column;
+}
+.teacherClassMain .heading{
+    width: 100%;
+    height: auto;
+    background-color: rgb(212, 211, 212);
+    border-radius: 3px;
+    text-align: center;
+}
+.teacherClassMain .classes{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 320px;
+    overflow-x: auto;
+    border-radius: 3px;
+    background-color: rgba(211, 204, 211, 0.281);
+}

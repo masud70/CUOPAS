@@ -1,0 +1,45 @@
+.div{
+    min-height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px 10px;
+}
+.div h4{
+    color: #30336b !important;
+}
+.div .arrowRight{
+    transition: all .7s;
+    border-radius: 10px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+.div .arrowRight:hover{
+    background-color: rgba(255, 250, 250,0.2);
+}
+.div .arrowRight:hover i{
+    transform:translateX(100%);
+}
+.div i{
+    font-size: 40px;
+    transition: all .9s;
+}
+
+.div p{
+    text-align: justify;
+}
+.attendanceDiv{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+.paymentDiv{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+.othersDiv{
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}

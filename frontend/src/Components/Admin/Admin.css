@@ -1,0 +1,8 @@
+.adminDashboard{
+    margin: 15px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}

@@ -1,0 +1,64 @@
+.addNewStudent{
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 8px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.addNewStudent label{
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    font-size: 13px;
+}
+.addNewStudent .label{
+    padding: 0px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    display: inline-block;
+    
+}
+.addNewStudent input{
+    color: r#071946;
+    border: 2px solid rgb(220,220,220);
+    padding: 3px 7px;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin: 15px;
+}
+.selectInput{
+    height: 0px !important;
+    font-size: 18px;
+}
+.addNewStudent .img-prev{
+    position: relative;
+    height: 200px;
+    width: 170px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 10px;
+}
+.addNewStudent .input-img-hidden{
+    display: none;
+}
+.addNewStudent .img-prev:hover{
+    filter:contrast(70%);
+}
+.formSubmitBtn{
+    background-color: #041C32;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.8s;
+}
+.formSubmitBtn:hover{
+    background-color: white;
+    color: #041C32;
+    border-color: #041C32;
+}

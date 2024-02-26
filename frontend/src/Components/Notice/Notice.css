@@ -1,0 +1,9 @@
+.notice-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    background-color: red;
+  }

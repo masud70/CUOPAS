@@ -1,0 +1,32 @@
+.PaymentListDiv{
+    background-color: #EDEFF2;
+    border-left: 4px solid #192a56;
+    border-radius: 7px;
+    width: 95%;
+    height: 50px;
+    margin: 10px auto;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0);
+    transition: all .3s;
+}
+.PaymentListDiv:hover{
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.42); 
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.42);
+}
+.PaymentListDiv .PaymentDetailsButton{
+    text-decoration: none;
+    color: #192a56;
+    outline: none;
+    border: 2.5px solid #192a56;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+.PaymentListDiv .PaymentDetailsButton:hover{
+    background-color: #192a56;
+    border-color: transparent;
+    color: white;
+}

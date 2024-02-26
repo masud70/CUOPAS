@@ -1,0 +1,21 @@
+.SidebarSingleDiv{
+    color: #303952;
+    background-color: white;
+    min-height: 45px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+    border-left: 7px solid 	rgb(250, 36, 36);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 10px 0px;
+	background-position: right top;
+    transition: all ease 0.8s;
+}
+
+.SidebarSingleDiv:hover{
+    background-position: left bottom;
+    color: #EAEAEA ;
+    background: linear-gradient( to left, white 50%, #161853 50% );
+	background-size: 200% 101%;
+}

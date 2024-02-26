@@ -1,0 +1,52 @@
+.AddNewTeacherDiv{
+    padding: 10px;
+    background-color: rgba(226, 231, 231, 0.808);
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all .5s;
+}
+.AddNewTeacherDiv label{
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    font-size: 13px;
+}
+.AddNewTeacherDiv .label{
+    padding: 0px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    display: inline-block;
+    
+}
+.AddNewTeacherDiv input{
+    color: r#071946;
+    border: 2px solid rgb(220,220,220);
+    padding: 3px 7px;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin: 15px;
+}
+.selectInput{
+    height: 0px !important;
+    font-size: 18px;
+}
+.AddNewTeacherDiv .img-prev{
+    position: relative;
+    height: 200px;
+    width: 170px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 10px;
+}
+.AddNewTeacherDiv .input-img-hidden{
+    display: none;
+}
+.AddNewTeacherDiv .img-prev:hover{
+    filter:contrast(70%);
+}
